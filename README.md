@@ -47,7 +47,7 @@
 
 - [1주차 PR](https://github.com/codesquad-member-2020/airbnb-02/pull/33)
 - [2주차 PR](https://github.com/codesquad-member-2020/airbnb-02/pull/99)
-- [3주차 PR](https://github.com/codesquad-member-2020/airbnb-02/pulls)
+- [3주차 PR](https://github.com/codesquad-member-2020/airbnb-02/pull/151)
 - [페어 리뷰 활동 - 1](https://github.com/codesquad-member-2020/airbnb-02/pull/117)
 - [페어 리뷰 활동 - 2](https://github.com/codesquad-member-2020/airbnb-02/pull/150)
 
