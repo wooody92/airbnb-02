@@ -9,6 +9,7 @@
 ### Project link
 
 - https://github.com/codesquad-member-2020/airbnb-02
+- [iOS 데모화면](https://github.com/codesquad-member-2020/airbnb-02/tree/dev/iOS)
 
 
 
