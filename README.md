@@ -1,5 +1,7 @@
 # AIRBNB
 
+##### 2020.05.18 - 2020.06.04
+
 에어비앤비 클론 프로젝트로, `iOS` & `Backend`로 팀을 이루어 3주동안 진행한 프로젝트 입니다. `OAuth`와 `JWT` 그리고 `Interceptor`의 동작 방식을 학습하고, `Github OAuth`를 이용한 로그인 기능을 라이브러리 없이 직접 구현했습니다. 페어 프로그래밍을 진행하며 `PR review`와 `Issue`를 적극 활용하여 팀으로써 함께 발전하며 개발을 진행했습니다.
 
 <br>
@@ -59,6 +61,7 @@
 - [리팩토링 - 테이블 연관관계](https://github.com/codesquad-member-2020/airbnb-02/issues/106)
 - [리팩토링 - JWT 기반 동작](https://github.com/codesquad-member-2020/airbnb-02/pull/138)
 - [리팩토링 - Image Class VO로 변경](https://github.com/codesquad-member-2020/airbnb-02/pull/131)
+- [리팩토링 - DB 테이블](https://github.com/codesquad-member-2020/airbnb-02/issues/9)
 
 
 
