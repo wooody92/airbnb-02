@@ -56,25 +56,6 @@
 
 
 
-### Refactoring
-
-- [리팩토링 - 테이블 연관관계](https://github.com/codesquad-member-2020/airbnb-02/issues/106)
-- [리팩토링 - JWT 기반 동작](https://github.com/codesquad-member-2020/airbnb-02/pull/138)
-- [리팩토링 - Image Class VO로 변경](https://github.com/codesquad-member-2020/airbnb-02/pull/131)
-- [리팩토링 - DB 테이블](https://github.com/codesquad-member-2020/airbnb-02/issues/9)
-
-
-
-### Issues
-
-1. `OAuth`와 `JWT`의 동작 방식의 학습을 위해, `Github OAuth`를 이용한 로그인 기능을 라이브러리 없이 직접 구현했습니다. 사용자가 `GitHub OAuth`로 로그인하면 `GitHub` 아이디 정보를 가져오고 그 정보를 `JWT`에 담아 `iOS`의 요청 프로토콜 양식에 맞추어 응답합니다.
-   - [이슈링크 - OAuth2](https://github.com/codesquad-member-2020/airbnb-02/issues/50)
-2. 인터셉터를 이용하여 `JWT`의 유효성을 검증합니다. 로그인하지 않고 접속하면 게스트 정보로 동작합니다.
-   - [이슈링크 - JWT & Interceptor](https://github.com/codesquad-member-2020/airbnb-02/pull/124)
-   - [이슈링크 - Guest](https://github.com/codesquad-member-2020/airbnb-02/pull/141)
-
-
-
 ### 기술적 고민
 
 1. `Service` 계층의 `A-Service`가 다른 `Aggregation root` `Entity`의 `B-Service`를 참조해도 괜찮을까요? 상호 참조가 일어나야 한다면 `Service` 계층과 `Repository` 계층 중 어느 것을 참조하는 것이 좋을까요? #DDD
@@ -125,7 +106,26 @@
      }
      ```
 
-   
+
+
+### Refactoring
+
+- [리팩토링 - 테이블 연관관계](https://github.com/codesquad-member-2020/airbnb-02/issues/106)
+- [리팩토링 - JWT 기반 동작](https://github.com/codesquad-member-2020/airbnb-02/pull/138)
+- [리팩토링 - Image Class VO로 변경](https://github.com/codesquad-member-2020/airbnb-02/pull/131)
+- [리팩토링 - DB 테이블](https://github.com/codesquad-member-2020/airbnb-02/issues/9)
+
+
+
+### Issues
+
+1. `OAuth`와 `JWT`의 동작 방식의 학습을 위해, `Github OAuth`를 이용한 로그인 기능을 라이브러리 없이 직접 구현했습니다. 사용자가 `GitHub OAuth`로 로그인하면 `GitHub` 아이디 정보를 가져오고 그 정보를 `JWT`에 담아 `iOS`의 요청 프로토콜 양식에 맞추어 응답합니다.
+   - [이슈링크 - OAuth2](https://github.com/codesquad-member-2020/airbnb-02/issues/50)
+2. 인터셉터를 이용하여 `JWT`의 유효성을 검증합니다. 로그인하지 않고 접속하면 게스트 정보로 동작합니다.
+   - [이슈링크 - JWT & Interceptor](https://github.com/codesquad-member-2020/airbnb-02/pull/124)
+   - [이슈링크 - Guest](https://github.com/codesquad-member-2020/airbnb-02/pull/141)
+
+
 
 ### Study Keyword
 
